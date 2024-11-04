@@ -1,0 +1,87 @@
+/* NavBar.css */
+
+/* Base Styles */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .navbar_title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .navbar_title_name {
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  .navbar_title_position {
+    font-size: 18px;
+    margin: 0;
+    color: #ccc;
+  }
+  
+  .navbar_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .navbar_links > div {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar_links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar_links a:hover {
+    color: #ddd;
+  }
+  
+  .navbar_pages {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Media Queries */
+  
+  /* For screens less than 768px */
+  @media screen and (max-width: 768px) {
+    .navbar_links {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar_links > div {
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* For screens less than 480px */
+  @media screen and (max-width: 480px) {
+    .navbar_title_name {
+      font-size: 24px;
+    }
+  
+    .navbar_title_position {
+      font-size: 14px;
+    }
+  
+    .navbar_links a {
+      font-size: 14px;
+    }
+  
+    .navbar_pages {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  }
+  
