@@ -13,13 +13,11 @@ function Navbar() {
       <div>
         <div className='navbar_title'>
           <h1 className='navbar_title_name'>Phu Quan</h1>
-          <h1 className='navbar_title_position'>Cybersecurity & Informatics Student</h1>
+          <h1 className='navbar_title_position'>Informatics Student</h1>
         </div>
         <nav className='navbar_links'>
           <div>
             <a href='/Professional' onClick={ScrollUp}>Professional</a>
-            
-            <a href='/Personal' onClick={ScrollUp}>Personal</a>
           </div>
           <div className='navbar_pages'>
             <a href='https://drive.google.com/file/d/your-resume-link' target="_blank" rel='noreferrer'>Resume</a>
