@@ -1,5 +1,6 @@
 import React from 'react';
 import './NavBar.css';
+import '.././Background/Background.css'
 
 function Navbar() {
   function ScrollUp() {
@@ -20,7 +21,7 @@ function Navbar() {
             <a href='/Professional' onClick={ScrollUp}>Professional</a>
           </div>
           <div className='navbar_pages'>
-            <a href='https://drive.google.com/file/d/your-resume-link' target="_blank" rel='noreferrer'>Resume</a>
+            <a href='https://drive.google.com/file/d/1-FJsVOJ1DOJmTQDS9zyCMHPAH3-yxbg6/view?usp=sharing' target="_blank" rel='noreferrer'>Resume</a>
             <a href='https://www.linkedin.com/in/phu-quan/' target="_blank" rel='noreferrer'>LinkedIn</a>
             <a href='https://github.com/Quann02' target="_blank" rel='noreferrer'>GitHub</a>
             <a href='#contact'>Contact</a>

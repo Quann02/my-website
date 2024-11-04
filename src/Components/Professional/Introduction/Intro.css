@@ -1,0 +1,25 @@
+.intro {
+    margin: 20px auto 0 20%; /* Top, right, bottom, and left margins in shorthand */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns items to the left */
+}
+
+.intro > h1 {
+    letter-spacing: 0.2px;
+    font-size: 30px;
+    padding-bottom: 3px;
+    margin: 0;
+    border: 0;
+    color: black;
+}
+
+.intro > h2 {
+    letter-spacing: 0.2px;
+    font-size: 18px;
+    padding-bottom: 3px;
+    font-weight: 400;
+    margin: 0;
+    border: 0;
+    color: black;
+}
