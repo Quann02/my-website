@@ -3,10 +3,9 @@
     left: 0;
     top: 0;
     height: 100%;
-    width: 220px;
+    width: 170px;
     background: #1b1f23;
     padding: 20px;
-    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.7);
     border-right: 1px solid #3a3f47;
   }
   
