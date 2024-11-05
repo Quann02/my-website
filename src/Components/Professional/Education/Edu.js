@@ -6,8 +6,8 @@ function Edu() {
         <div className='education'>
           <div>
             </div>
-          <h1>Greeting</h1>
-          <h2>Passionate in Cybersecurity and Information Technology</h2>
+          <h1></h1>
+          <h2></h2>
         </div>
     );
   }

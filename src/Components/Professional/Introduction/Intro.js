@@ -6,8 +6,7 @@ function Intro() {
       <div className='intro'>
         <div>
           </div>
-        <h1>Greeting</h1>
-        <h2>Passionate in Cybersecurity and Information Technology</h2>
+        <h1>Greeting, My name is Phu Quan</h1>
       </div>
   );
 }
