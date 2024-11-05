@@ -1,0 +1,21 @@
+.education {
+    padding: 50px;
+    background-color: #2c2f34; /* Matching background to blend with rest of the site */
+    color: #e0e0e0;
+  }
+  
+  .edu-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  h1, h2 {
+    color: #81c784; /* Consistent with other headings for uniform design */
+  }
+  
+  p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+  }
+  

@@ -1,0 +1,76 @@
+/* Reset default browser margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  font-family: 'Roboto', sans-serif; /* Use a modern, clean font */
+}
+
+.intro {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #c5e1a5;
+  background: linear-gradient(135deg, #1b1f23, #2c2f34); /* Subtle gradient background */
+  padding: 10px;
+}
+
+.intro-content {
+  max-width: 1200px; /* Increased max-width to take more screen space */
+  width: 90%;
+  margin: 13% auto;
+  padding: 0 2px; /* Reduced padding to make more space for text */
+  text-align: justify;
+  font-size: 1.1em;
+  line-height: 1.8;
+  color: #e0e0e0; /* Softer color for better contrast with background */
+  transition: transform 0.3s ease;
+}
+
+h1 {
+  margin: 20px 0;
+  margin-right: 15%;
+  text-align: center;
+  color: #81c784; /* Matches navbar title color */
+  font-weight: bold;
+  font-size: 2.5em; /* Increase heading size */
+}
+
+h2 {
+  margin-top: 15px;
+  margin-left: 12%;
+  font-weight: normal;
+  line-height: 1.8;
+}
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  .intro-content {
+    max-width: 90%;
+    font-size: 1em;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2em; /* Adjust heading size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .intro-content {
+    max-width: 100%;
+    font-size: 0.9em;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+}
