@@ -3,9 +3,9 @@ import './WorkExper.css';
 
 function WorkExper() {
     return (
-        <div className="work-exper">
+        <div className="work-exper" id="work-section">
             <h1>Work Experience</h1>
-            
+
             <div className="work-item">
                 <h2>IT Project Specialist Intern</h2>
                 <p className="company-location">Societal Aspiration Start-up | Remote</p>
@@ -15,7 +15,7 @@ function WorkExper() {
                     <li>Played a key role in security incident response, driving investigations and timely resolutions that cut response time by 20% and minimized operational disruption.</li>
                 </ul>
             </div>
-            
+
             <div className="work-item">
                 <h2>Student Database and IT Assistant</h2>
                 <p className="company-location">FIUTS - UW | Seattle, WA</p>

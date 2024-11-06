@@ -8,7 +8,7 @@
 html, body {
   height: 100%;
   overflow-x: hidden; /* Prevent horizontal scrolling */
-  font-family: 'Roboto', sans-serif; /* Use a modern, clean font */
+  font-family: 'Garamond', sans-serif; /* Corrected font name */
 }
 
 .intro {
@@ -17,28 +17,28 @@ html, body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #c5e1a5;
-  background: linear-gradient(135deg, #1b1f23, #2c2f34); /* Subtle gradient background */
+  color: #000000; /* Black text color */
+  background: #ffffff; /* White background for container */
   padding: 10px;
 }
 
 .intro-content {
-  max-width: 1200px; /* Increased max-width to take more screen space */
+  max-width: 1200px;
   width: 90%;
   margin: 13% auto;
-  padding: 0 2px; /* Reduced padding to make more space for text */
-  text-align: left; /* Align text to the left */
-  font-size: 1em; /* Reduced font size */
-  line-height: 1.7; /* Adjusted for readability with smaller font */
-  color: #e0e0e0; /* Softer color for better contrast with background */
+  margin-top: 50px;
+  padding: 0 2px;
+  text-align: left;
+  font-size: 1em;
+  line-height: 1.7;
+  color: #000000; /* Black text color for content */
   transition: transform 0.3s ease;
 }
 
 h1 {
   margin: 20px 0;
-  /* Removed margin-right */
   text-align: left;
-  color: #81c784;
+  color: #333333; /* Dark gray for a softer black heading */
   font-weight: bold;
   font-size: 2.2em;
 }
@@ -47,8 +47,8 @@ h2 {
   margin-top: 15px;
   font-weight: normal;
   line-height: 1.6;
-  font-size: 1.5em; /* Reduced font size */
-  /* Removed margin-left: 12%; to align the paragraph to the left */
+  font-size: 1.5em;
+  color: #333333; /* Dark gray for subheadings */
 }
 
 /* Responsive adjustments for smaller screens */
@@ -60,7 +60,7 @@ h2 {
   }
 
   h1 {
-    font-size: 1.8em; /* Adjust heading size for smaller screens */
+    font-size: 1.8em;
   }
 }
 

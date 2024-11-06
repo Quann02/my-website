@@ -1,0 +1,80 @@
+/* Community Involvement section styling */
+.community-involvement {
+    padding: 40px;
+    background-color: #ffffff; /* White background for light theme */
+    color: #000000; /* Black text color */
+    border-top: 2px solid #ddd; /* Light gray separator line on top */
+    border-bottom: 2px solid #ddd; /* Light gray separator line at bottom */
+}
+
+/* Section title styling */
+.community-involvement h1 {
+    font-size: 2em;
+    color: #333333; /* Dark gray for heading */
+    margin-bottom: 20px;
+    text-align: left; /* Align to match other sections */
+}
+
+/* Involvement item styling without container */
+.involvement-item {
+    margin-bottom: 20px; /* Spacing between involvement items */
+}
+
+/* Title of each community involvement item */
+.involvement-item h2 {
+    font-size: 1.5em;
+    color: #444444; /* Medium gray for item titles */
+    margin-bottom: 8px;
+}
+
+/* Dates of involvement */
+.involvement-dates {
+    font-size: 1em;
+    color: #666666; /* Gray color for dates */
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+/* Involvement description as a bullet list */
+.involvement-description {
+    list-style-type: disc; /* Bullet points */
+    margin-left: 20px;
+    padding-left: 15px;
+    line-height: 1.8;
+    font-size: 1em;
+    color: #333333; /* Dark gray for description text */
+}
+
+.involvement-description li {
+    margin-bottom: 10px; /* Spacing between bullet points */
+}
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+    .community-involvement {
+        padding: 20px;
+    }
+
+    .involvement-item h2 {
+        font-size: 1.3em;
+    }
+
+    .involvement-dates,
+    .involvement-description {
+        font-size: 0.95em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .community-involvement {
+        padding: 15px;
+    }
+
+    .involvement-item h2 {
+        font-size: 1.2em;
+    }
+
+    .involvement-description {
+        font-size: 0.9em;
+    }
+}

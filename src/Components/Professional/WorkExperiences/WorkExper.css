@@ -1,94 +1,100 @@
 /* Work Experience section container */
 .work-exper {
     padding: 40px;
-    background: linear-gradient(135deg, #1b1f23, #2c2f34); /* Subtle gradient background */
-    color: #e0e0e0;
-}
+    background-color: #ffffff; /* White background for light theme */
+    color: #000000; /* Black text color */
+    border-top: 2px solid #ddd; /* Light gray separator line on top */
+    border-bottom: 2px solid #ddd; /* Light gray separator line at bottom */
+  }
+  
+  /* Section title styling */
+  .work-exper h1 {
+    font-size: 2em;
+    color: #333333; /* Dark gray for heading */
+    margin-bottom: 20px;
+  }
+  
 
-/* Section title styling */
-.work-exper h1 {
-    font-size: 2.2em;
-    color: #81c784;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-/* Work item card-style container */
-.work-item {
-    background-color: #333842;
-    border-radius: 10px;
-    padding: 30px;
-    margin-bottom: 25px;
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
-}
-
-/* Job title */
-.work-item h2 {
-    font-size: 1.8em;
-    color: #c5e1a5;
-    margin-bottom: 8px;
-}
-
-/* Company and location details */
-.company-location {
+  
+  /* Job text details */
+  .work-details {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .work-details h2 {
+    font-size: 1.5em;
+    color: #444444; /* Medium gray for subheadings */
+    margin-bottom: 10px;
+  }
+  
+  .work-details p {
     font-size: 1em;
-    color: #a9b3bb;
-    margin-bottom: 5px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #333333; /* Dark gray for paragraph text */
+  }
+  
+  /* Company location and dates styling */
+  .company-location {
+    font-size: 1em;
+    color: #666666; /* Gray color for company/location details */
     font-style: italic;
-}
-
-/* Dates of employment */
-.work-dates {
+    margin-bottom: 5px;
+  }
+  
+  .work-dates {
     font-size: 1em;
-    color: #81c784;
+    color: #888888; /* Lighter gray for dates */
     margin-bottom: 15px;
-}
-
-/* Job description as a bullet list */
-.work-description {
-    list-style-type: disc; /* Bullet points */
+  }
+  
+  /* Job description as a bullet list */
+  .work-description {
+    list-style-type: disc;
     margin-left: 20px;
     padding-left: 15px;
-    line-height: 1.8; /* Improved readability */
+    line-height: 1.8;
     font-size: 1em;
-    color: #e0e0e0;
-}
-
-.work-description li {
+    color: #333333; /* Dark gray for job description */
+  }
+  
+  .work-description li {
     margin-bottom: 10px; /* Spacing between bullet points */
-}
-
-/* Responsive adjustments for smaller screens */
-@media screen and (max-width: 768px) {
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media screen and (max-width: 768px) {
     .work-exper {
-        padding: 20px;
+      padding: 20px;
     }
-
+  
     .work-item {
-        padding: 20px;
+      padding: 20px;
     }
-
-    .work-item h2 {
-        font-size: 1.5em;
+  
+    .work-details h2 {
+      font-size: 1.3em;
     }
-
+  
     .company-location,
     .work-dates,
     .work-description {
-        font-size: 0.95em;
+      font-size: 0.95em;
     }
-}
-
-@media screen and (max-width: 480px) {
+  }
+  
+  @media screen and (max-width: 480px) {
     .work-exper {
-        padding: 15px;
+      padding: 15px;
     }
-
-    .work-item h2 {
-        font-size: 1.4em;
+  
+    .work-details h2 {
+      font-size: 1.2em;
     }
-
+  
     .work-description {
-        font-size: 0.9em;
+      font-size: 0.9em;
     }
-}
+  }
+  

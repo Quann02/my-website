@@ -4,6 +4,7 @@ import Intro from './Components/Professional/Introduction/Intro.js';
 import Edu from './Components/Professional/Education/Edu.js'
 import './App.css';
 import WorkExper from './Components/Professional/WorkExperiences/WorkExper.js';
+import CommunityInv from './Components/Professional/CommunityInvolvement/CommunityInv.js'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Intro />
         <Edu />
         <WorkExper />
+        <CommunityInv />
       </div>
     </div>
   );
