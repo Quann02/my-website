@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/my-website/static/css/main.7a23326e.css",
-    "main.js": "/my-website/static/js/main.e4924ffd.js",
+    "main.js": "/my-website/static/js/main.000864b5.js",
     "static/js/453.43252f96.chunk.js": "/my-website/static/js/453.43252f96.chunk.js",
     "static/media/University of Washingotn.jpg": "/my-website/static/media/University of Washingotn.377ad24a760b1977c6f4.jpg",
     "index.html": "/my-website/index.html",
     "main.7a23326e.css.map": "/my-website/static/css/main.7a23326e.css.map",
-    "main.e4924ffd.js.map": "/my-website/static/js/main.e4924ffd.js.map",
+    "main.000864b5.js.map": "/my-website/static/js/main.000864b5.js.map",
     "453.43252f96.chunk.js.map": "/my-website/static/js/453.43252f96.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a23326e.css",
-    "static/js/main.e4924ffd.js"
+    "static/js/main.000864b5.js"
   ]
 }
