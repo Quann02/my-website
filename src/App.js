@@ -1,15 +1,17 @@
 import React from 'react';
-import './App.css';
 import Navbar from './Components/NavBar/NavBar.js';
 import Intro from './Components/Professional/Introduction/Intro.js';
-import Edu from './Components/Professional/Education/Edu.js';
+import Edu from './Components/Professional/Education/Edu.js'
+import './App.css';
 
 function App() {
   return (
-    <div className='app'>
+    <div className='app-container'>
       <Navbar />
-      <Intro />
-      <Edu />
+      <div className='main-content'>
+        <Intro />
+        <Edu />
+      </div>
     </div>
   );
 }
