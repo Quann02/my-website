@@ -1,22 +1,17 @@
-/* Work Experience section container */
 .work-exper {
     padding: 40px;
-    background-color: #ffffff; /* White background for light theme */
-    color: #000000; /* Black text color */
-    border-top: 2px solid #ddd; /* Light gray separator line on top */
-    border-bottom: 2px solid #ddd; /* Light gray separator line at bottom */
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
   }
   
-  /* Section title styling */
   .work-exper h1 {
     font-size: 2em;
-    color: #333333; /* Dark gray for heading */
+    color: #333333;
     margin-bottom: 20px;
   }
   
-
-  
-  /* Job text details */
   .work-details {
     flex: 1;
     margin-right: 20px;
@@ -24,7 +19,7 @@
   
   .work-details h2 {
     font-size: 1.5em;
-    color: #444444; /* Medium gray for subheadings */
+    color: #444444;
     margin-bottom: 10px;
   }
   
@@ -32,44 +27,37 @@
     font-size: 1em;
     line-height: 1.6;
     margin-bottom: 10px;
-    color: #333333; /* Dark gray for paragraph text */
+    color: #333333;
   }
   
-  /* Company location and dates styling */
   .company-location {
     font-size: 1em;
-    color: #666666; /* Gray color for company/location details */
+    color: #666666;
     font-style: italic;
     margin-bottom: 5px;
   }
   
   .work-dates {
     font-size: 1em;
-    color: #888888; /* Lighter gray for dates */
+    color: #888888;
     margin-bottom: 15px;
   }
   
-  /* Job description as a bullet list */
   .work-description {
     list-style-type: disc;
     margin-left: 20px;
     padding-left: 15px;
     line-height: 1.8;
     font-size: 1em;
-    color: #333333; /* Dark gray for job description */
+    color: #333333;
   }
   
   .work-description li {
-    margin-bottom: 10px; /* Spacing between bullet points */
+    margin-bottom: 10px;
   }
   
-  /* Responsive adjustments for smaller screens */
   @media screen and (max-width: 768px) {
     .work-exper {
-      padding: 20px;
-    }
-  
-    .work-item {
       padding: 20px;
     }
   

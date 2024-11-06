@@ -1,4 +1,3 @@
-/* Reset default browser margins and paddings */
 * {
   margin: 0;
   padding: 0;
@@ -7,38 +6,37 @@
 
 html, body {
   height: 100%;
-  overflow-x: hidden; /* Prevent horizontal scrolling */
-  font-family: 'Garamond', sans-serif; /* Corrected font name */
+  overflow-x: hidden;
+  font-family: 'Garamond', sans-serif;
 }
 
 .intro {
   min-height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   text-align: center;
-  color: #000000; /* Black text color */
-  background: #ffffff; /* White background for container */
+  background: #ffffff;
+  color: #000000;
   padding: 10px;
+  position: relative;
 }
 
 .intro-content {
   max-width: 1200px;
   width: 90%;
-  margin: 13% auto;
-  margin-top: 50px;
+  margin: 0% auto 0;
   padding: 0 2px;
   text-align: left;
   font-size: 1em;
   line-height: 1.7;
-  color: #000000; /* Black text color for content */
-  transition: transform 0.3s ease;
+  color: #000000;
 }
 
 h1 {
   margin: 20px 0;
   text-align: left;
-  color: #333333; /* Dark gray for a softer black heading */
+  color: #333333;
   font-weight: bold;
   font-size: 2.2em;
 }
@@ -48,10 +46,40 @@ h2 {
   font-weight: normal;
   line-height: 1.6;
   font-size: 1.5em;
-  color: #333333; /* Dark gray for subheadings */
+  color: #333333;
 }
 
-/* Responsive adjustments for smaller screens */
+.scroll-down {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  opacity: 0.8;
+  animation: bounce 1.5s infinite;
+}
+
+.scroll-text {
+  display: block;
+  font-size: 1em;
+  color: #333333;
+  margin-bottom: 5px;
+}
+
+.arrow {
+  font-size: 2em;
+  color: #333333;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(10px);
+  }
+}
+
 @media screen and (max-width: 768px) {
   .intro-content {
     max-width: 90%;

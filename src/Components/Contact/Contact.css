@@ -1,4 +1,4 @@
-.community-involvement {
+.contact {
     padding: 40px;
     background-color: #ffffff;
     color: #000000;
@@ -6,72 +6,54 @@
     border-bottom: 2px solid #ddd;
   }
   
-  .community-involvement h1 {
+  .contact h2 {
     font-size: 2em;
     color: #333333;
     margin-bottom: 20px;
     text-align: left;
   }
   
-  .involvement-item {
+  .contact-section {
     margin-bottom: 20px;
   }
   
-  .involvement-item h2 {
+  .contact-section h3 {
     font-size: 1.5em;
     color: #444444;
     margin-bottom: 8px;
   }
   
-  .involvement-dates {
+  .contact-section p {
     font-size: 1em;
     color: #666666;
-    margin-bottom: 15px;
-    font-style: italic;
-  }
-  
-  .involvement-description {
-    list-style-type: disc;
-    margin-left: 20px;
-    padding-left: 15px;
-    line-height: 1.8;
-    font-size: 1em;
-    color: #333333;
-  }
-  
-  .involvement-description li {
     margin-bottom: 10px;
   }
   
+  /* Responsive adjustments for smaller screens */
   @media screen and (max-width: 768px) {
-    .community-involvement {
+    .contact {
       padding: 20px;
     }
   
-    .involvement-item h2 {
+    .contact-section h3 {
       font-size: 1.3em;
     }
   
-    .involvement-dates,
-    .involvement-description {
+    .contact-section p {
       font-size: 0.95em;
     }
   }
   
   @media screen and (max-width: 480px) {
-    .community-involvement {
+    .contact {
       padding: 15px;
     }
   
-    .community-involvement h1 {
-      font-size: 1.6em;
-    }
-  
-    .involvement-item h2 {
+    .contact-section h3 {
       font-size: 1.2em;
     }
   
-    .involvement-description {
+    .contact-section p {
       font-size: 0.9em;
     }
   }

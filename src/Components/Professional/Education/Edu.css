@@ -1,26 +1,23 @@
-/* Education section container */
 .education {
   padding: 40px;
-  background-color: #ffffff; /* White background for light theme */
-  color: #000000; /* Black text color */
-  border-top: 2px solid #ddd; /* Light gray separator line on top */
-  border-bottom: 2px solid #ddd; /* Light gray separator line at bottom */
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
 }
 
 h1 {
   font-size: 2em;
-  color: #333333; /* Dark gray for heading */
+  color: #333333;
   margin-bottom: 20px;
 }
 
-/* Container for university header and logo */
 .edu-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-/* University text details */
 .edu-details {
   flex: 1;
   margin-right: 20px;
@@ -28,7 +25,7 @@ h1 {
 
 .edu-details h2 {
   font-size: 1.5em;
-  color: #444444; /* Medium gray for subheadings */
+  color: #444444;
   margin-bottom: 10px;
 }
 
@@ -36,19 +33,70 @@ h1 {
   font-size: 1em;
   line-height: 1.6;
   margin-bottom: 10px;
-  color: #333333; /* Dark gray for paragraph text */
+  color: #333333;
 }
 
-/* Logo styling */
 .edu-logo {
-  width: 300px; /* Adjust width as needed */
+  width: 300px;
   height: auto;
-  border-radius: 8px; /* Optional rounded corners */
+  border-radius: 8px;
   margin-top: 0;
   margin-right: 3%;
 }
 
-/* Additional styling for section separator */
 .intro {
-  border-bottom: 2px solid #ddd; /* Light gray separator line at bottom */
+  border-bottom: 2px solid #ddd;
+}
+
+/* Responsive adjustments for medium screens (tablets) */
+@media screen and (max-width: 768px) {
+  .education {
+    padding: 20px;
+  }
+
+  .edu-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .edu-details {
+    margin-right: 0;
+  }
+
+  .edu-details h2 {
+    font-size: 1.3em;
+  }
+
+  .edu-details p {
+    font-size: 0.95em;
+  }
+
+  .edu-logo {
+    width: 250px;
+    margin-top: 20px;
+    margin-right: 0;
+  }
+}
+
+/* Responsive adjustments for small screens (mobile) */
+@media screen and (max-width: 480px) {
+  .education {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.6em;
+  }
+
+  .edu-details h2 {
+    font-size: 1.2em;
+  }
+
+  .edu-details p {
+    font-size: 0.9em;
+  }
+
+  .edu-logo {
+    width: 200px;
+  }
 }

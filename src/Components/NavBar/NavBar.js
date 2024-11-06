@@ -12,14 +12,13 @@ function Navbar() {
         </div>
         <nav className='navbar_links'>
           <div>
-            {/* Updated href to #Professional for scrolling */}
-            <a href='#Professional'>Professional</a>
+            <a href='#professional-section'>Professional</a>
           </div>
           <div className='navbar_pages'>
             <a href='https://drive.google.com/file/d/1-FJsVOJ1DOJmTQDS9zyCMHPAH3-yxbg6/view?usp=sharing' target="_blank" rel='noreferrer'>Resume</a>
             <a href='https://www.linkedin.com/in/phu-quan/' target="_blank" rel='noreferrer'>LinkedIn</a>
             <a href='https://github.com/Quann02' target="_blank" rel='noreferrer'>GitHub</a>
-            <a href='#contact'>Contact</a>
+            <a href='#contact-section'>Contact</a>
           </div>
         </nav>
       </div>
