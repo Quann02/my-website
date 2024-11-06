@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/my-website/static/css/main.b41bb409.css",
+    "main.js": "/my-website/static/js/main.30ccdb9f.js",
+    "static/js/453.43252f96.chunk.js": "/my-website/static/js/453.43252f96.chunk.js",
+    "static/media/University of Washingotn.jpg": "/my-website/static/media/University of Washingotn.377ad24a760b1977c6f4.jpg",
+    "index.html": "/my-website/index.html",
+    "main.b41bb409.css.map": "/my-website/static/css/main.b41bb409.css.map",
+    "main.30ccdb9f.js.map": "/my-website/static/js/main.30ccdb9f.js.map",
+    "453.43252f96.chunk.js.map": "/my-website/static/js/453.43252f96.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b41bb409.css",
+    "static/js/main.30ccdb9f.js"
+  ]
+}
